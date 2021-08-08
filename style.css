@@ -1,8 +1,9 @@
 h1{
-    margin:20px;
+    background-image:url("https://i.ibb.co/ThCGy0v/image.png");
+    background-color:rgba(255,255,255,0.8);
+    background-blend-mode:lighten;
     padding:15px;
-    color:#285943;
-    background-color:#d7fff1;
+    color:#000000;
 }
 body{
     background-color:#8cd790;
