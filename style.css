@@ -1,0 +1,21 @@
+h1{
+    margin:20px;
+    padding:15px;
+    color:#285943;
+    background-color:#d7fff1;
+}
+body{
+    background-color:#8cd790;
+}
+.header{
+    margin:20px;
+    background-color:#77af9c;
+}
+li{
+    list-style:none;
+    padding:20px 30px 20px 30px;
+    color:#285943;
+}
+ul{
+    display:flex;
+}
