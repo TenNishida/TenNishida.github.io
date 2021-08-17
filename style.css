@@ -11,6 +11,7 @@ body{
     background-color:#ffffff;
     text-align: center;
     font-family: YuGothic,'Yu Gothic',sans-serif;
+    white-space: nowrap;
 }
 .menu{
 
