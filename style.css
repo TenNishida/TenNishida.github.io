@@ -17,6 +17,19 @@ body{
 
     font-family: YuGothic,'Yu Gothic',sans-serif;
 }
+/*こだわりポイント、キャラクター*/
+.hako{
+    display:flex;
+    justify-content:space-between;
+}
+.hako img{
+    /*width:40%;*/
+    max-width: 220px;
+}
+.setsumei p{
+    width:40%;
+    max-width: 220px;
+}
 .kodawari-point{
     text-align: left;
     margin:20px 100px 20px 100px;
@@ -25,6 +38,17 @@ body{
 .kodawari-point img{
     height: 220px;
     margin:0px 100px 0px 50px;
+}
+.hako2{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content:space-between;
+   /* text-align: right;*/
+}
+.setsumei2{
+    width:40%;
+    max-width: 220px;
+    /*text-align: right;*/
 }
 .ComingSoon{
     text-align: right;
@@ -47,7 +71,7 @@ body{
 }
 .muryouhaihu{
     text-align: right;
-    margin:10px 100px 20px 100px;
+    margin:20px 100px 20px 100px;
     border-top:5px solid #285943;
 }
 .muryouhaihu img{
