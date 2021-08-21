@@ -13,6 +13,9 @@ body{
     font-family: YuGothic,'Yu Gothic',sans-serif;
     white-space: nowrap;
 }
+img {
+    max-width:100%; height:auto; 
+}
 .menu{
 
     font-family: YuGothic,'Yu Gothic',sans-serif;
@@ -24,7 +27,7 @@ body{
 }
 .hako img{
     /*width:40%;*/
-    max-width: 220px;
+    /*max-width: 220px;*/
 }
 .setsumei p{
     width:40%;
@@ -36,7 +39,7 @@ body{
     border-top:5px solid #285943;
 }
 .kodawari-point img{
-    height: 220px;
+    height: 10%;
     margin:0px 100px 0px 50px;
 }
 .hako2{
@@ -56,7 +59,7 @@ body{
     border-top:5px solid #285943;
 }
 .ComingSoon img{
-    height:240px;
+    height: 10%;
     margin:10px 50px 10px 100px;
 }
 .sagyouhuukei{
@@ -65,8 +68,8 @@ body{
     border-top:5px solid #285943;
 }
 .sagyouhuukei iframe{
-    height: 150px;
-    width: 300px;
+    height: 10%;
+    width: 40%;
     margin:40px 100px 10px 50px;
 }
 .muryouhaihu{
@@ -76,7 +79,8 @@ body{
 }
 .muryouhaihu img{
     height:240px;
-    margin:10px 50px 10px 100px;
+    min-width: 220px;
+    margin:10px 50px 10px 50px;
     transition: .3s;
 }
 .muryouhaihu img:hover {
@@ -88,12 +92,12 @@ body{
     border-top:5px solid #285943;
 }
 .kounyuu img{
-    height:220px;
+    height:10%;
     margin:10px 100px 10px 50px;
 }
 .footer{
     background-color:#77af9c;
-    height:300px;
+    height: 600px;
     width: 100%;
 }
 .footer li{
