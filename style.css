@@ -3,7 +3,8 @@
     background-color:rgba(255,255,255,0.8);
     background-blend-mode:lighten;
     padding:165px 100px;
-    margin:20px 160px;
+    /*margin:20px 160px;*/
+    margin: 0 auto;
     color:#000000;
     text-align:center;
 }
@@ -17,7 +18,10 @@ img {
     max-width:100%; height:auto; 
 }
 .menu{
-
+    text-align: center;
+    /*width: 20%;
+    margin: 0 auto;*/
+    display: inline-block;
     font-family: YuGothic,'Yu Gothic',sans-serif;
 }
 /*こだわりポイント、キャラクター*/
@@ -40,7 +44,7 @@ img {
 }
 .kodawari-point img{
     height: 10%;
-    margin:0px 100px 0px 50px;
+    margin:0px 50px 0px 50px;
 }
 .hako2{
     display:flex;
@@ -99,6 +103,7 @@ img {
     background-color:#77af9c;
     height: 600px;
     width: 100%;
+    display: inline block;
 }
 .footer li{
     list-style:none;
